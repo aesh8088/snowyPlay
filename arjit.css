@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container{
+    background-color: black;
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.bottom{
+    background-color: black;
+    height: 15vh;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+#myprogressBar{
+    width: 70vw;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.left{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.left .head{
+    font-family: cursive;
+}
+
+.right img{
+    width: 240px;
+    overflow: hidden;
+}
+
+.songs-list{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.songs-list:hover{
+    background-color: yellow;
+}
+
+.songs-list img{
+    width: 30px;
+    border-radius: 30px;
+}
+
+.songs-list i{
+    cursor: pointer;
+}
+
+.middle{
+    margin-top: 50px;
+    width: 30%;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+@media (max-width: 1064px) {
+    .left .head{
+        font-size: 0.7rem;
+    }
+
+    .left{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 901px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .left{
+        width: 80vw;
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+
+    .middle{
+        width: 80vw;
+        padding-left: 20px;
+        margin-top:5px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 424px) {
+    .left .head{
+        font-size: 0.5rem;
+    }
+
+    .left{
+        margin-top: 10px;
+    }
+
+   .look{
+    font-size: 0.6rem;
+   }
+
+   .timestamp{
+    font-size: 0.7rem;
+   }
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Poetsen One", sans-serif;
+    overflow: hidden;
+}
+

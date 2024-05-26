@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+/* font-family: "Poetsen One", sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+marquee{
+    background-color: yellow;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.premium{
+    color: red;
+}
+
+.play{
+    color: red;
+    font-family: cursive;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    margin: 0px 50px;
+}
+
+.artists{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+   gap: 10px;
+   flex-wrap: wrap;
+   background-image: url(back.jpg);
+   margin-top: 20px;
+}
+
+.box{
+    background-color: rgb(254, 254, 254);
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    transition: 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.2);
+}
+
+.box img{
+    width: 150px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Poetsen One", sans-serif;
+    overflow: hidden;
+}
+
+@media (max-width:669px) {
+    .select{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:390px) {
+    .select{
+        font-size: 0.5rem;
+    }
+}
+

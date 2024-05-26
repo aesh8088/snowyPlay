@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+/* font-family: "Poetsen One", sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+marquee{
+    background-color: yellow;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.premium{
+    color: red;
+}
+
+.play{
+    color: red;
+    font-family: cursive;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    margin: 0px 50px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+   border: 5px solid red;
+   border-radius: 10px;
+   transition: 0.3s ease;
+   background-color: white;
+}
+
+.box:hover{
+    transform: scale(1.3);
+}
+
+.text a{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;display: flex;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Poetsen One", sans-serif;
+    overflow: hidden;
+}
+
+@media (max-width:669px) {
+    .select{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:390px) {
+    .select{
+        font-size: 0.5rem;
+    }
+}
